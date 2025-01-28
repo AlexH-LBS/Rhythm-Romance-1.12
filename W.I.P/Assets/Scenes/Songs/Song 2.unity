@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 7440454946514983216, guid: ce58d176bc9170340bec688204ea0a0d, type: 3}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.size
-      value: 34
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[0]
@@ -272,19 +272,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[31]
-      value: 6
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[32]
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[33]
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[34]
-      value: 10.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[35]
@@ -1594,19 +1594,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[24]
-      value: 7
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[25]
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[26]
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[27]
-      value: 3.5
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[28]
@@ -1614,7 +1614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[29]
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3102913598038498760, guid: f24fa69b78bd8ba4ca82b8d1673741ce, type: 3}
       propertyPath: TimeInBetween.Array.data[30]
