@@ -44,14 +44,15 @@ public class BusMovement : MonoBehaviour
             {
                 bus.velocity += new Vector2(-Speed, 0);
                 Direction = "Walking-";
+                animator.Play(Direction);
             }
             if (Input.GetKey(KeyCode.D))
             {
                 bus.velocity += new Vector2(Speed, 0);
                 Direction = "Walking";
-
+                animator.Play(Direction);
             }
-            if(Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
                 SceneManager.LoadScene(5);
             }
@@ -71,7 +72,6 @@ public class BusMovement : MonoBehaviour
         if (bus.velocity.x != 0 || bus.velocity.y != 0)
         {
             iswalking = true;
-            animator.Play(Direction);
         }
         if(bus.velocity.x == 0 && bus.velocity.y == 0)
         {

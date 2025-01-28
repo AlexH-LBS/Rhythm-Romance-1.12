@@ -14,5 +14,6 @@ public class FinishBlock : MonoBehaviour
     {
         UI.SetActive(true);
         playerScripts.finish();
+        Destroy(gameObject);
     }
 }

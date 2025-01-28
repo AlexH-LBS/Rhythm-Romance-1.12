@@ -7,8 +7,7 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class Score : MonoBehaviour
 {
-
-
+    public static Score instance { get; private set; }
     public TextMeshProUGUI scoreDisplay;
     public int totalHits;
 
@@ -16,5 +15,6 @@ public class Score : MonoBehaviour
     {
         totalHits += added;
         scoreDisplay.text = totalHits.ToString();
+
     }
 }
