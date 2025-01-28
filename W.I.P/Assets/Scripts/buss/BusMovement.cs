@@ -35,10 +35,12 @@ public class BusMovement : MonoBehaviour
             if (Input.GetKey(KeyCode.W))
             {
                 bus.velocity += new Vector2(0, Speed);
+                animator.Play(Direction);
             }
             if (Input.GetKey(KeyCode.S))
             {
                 bus.velocity += new Vector2(0, -Speed);
+                animator.Play(Direction);
             }
             if (Input.GetKey(KeyCode.A))
             {
