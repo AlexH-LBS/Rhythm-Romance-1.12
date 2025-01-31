@@ -32,23 +32,23 @@ public class BusMovement : MonoBehaviour
 
         if (move)
         {
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetKey(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
             {
                 bus.velocity += new Vector2(0, Speed);
                 animator.Play(Direction);
             }
-            if (Input.GetKey(KeyCode.S))
+            if (Input.GetKey(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
             {
                 bus.velocity += new Vector2(0, -Speed);
                 animator.Play(Direction);
             }
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
             {
                 bus.velocity += new Vector2(-Speed, 0);
                 Direction = "Walking-";
                 animator.Play(Direction);
             }
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
             {
                 bus.velocity += new Vector2(Speed, 0);
                 Direction = "Walking";
