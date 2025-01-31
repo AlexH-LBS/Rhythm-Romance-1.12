@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b87b3bdb56038064aa9f054917dcecf6
+guid: d78147a0d0fa3f646b5ea6598ec06f56
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 47
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -97,85 +97,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: block-Sheet_0
+      name: block-Sheet100_0
       rect:
         serializedVersion: 2
-        x: 290
-        y: 320
-        width: 470
-        height: 20
+        x: 29
+        y: 32
+        width: 47
+        height: 2
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a45dc6c9440d054b9deb85a222ec35c
-      internalID: 609946946
+      spriteID: 806bac1233318bc43976af1b52d8c176
+      internalID: -468957383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: block-Sheet_1
+      name: block-Sheet100_1
       rect:
         serializedVersion: 2
-        x: 1290
-        y: 320
-        width: 470
-        height: 20
+        x: 129
+        y: 32
+        width: 47
+        height: 2
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cc7ccffc3949c4438539ac09cc3de14
-      internalID: -1812036069
+      spriteID: 3f299e46077ce2b4383b99538bcd6361
+      internalID: 1285985952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: block-Sheet_2
+      name: block-Sheet100_2
       rect:
         serializedVersion: 2
-        x: 2260
-        y: 310
-        width: 520
-        height: 90
+        x: 226
+        y: 31
+        width: 52
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 008560aacde3c9c4d9ff9401e843d08b
-      internalID: -61388045
+      spriteID: b2ab89e7d6fb6b3468c4d37226e8cb44
+      internalID: -1015638066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: block-Sheet_3
+      name: block-Sheet100_3
       rect:
         serializedVersion: 2
-        x: 3230
-        y: 340
-        width: 590
-        height: 120
+        x: 323
+        y: 34
+        width: 59
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be9460e9e482cd74a8601becd481cb68
-      internalID: 1316470966
+      spriteID: d80d2cc1c1161074ea8e380821d786e1
+      internalID: -2081272319
       vertices: []
       indices: 
       edges: []
@@ -191,10 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      block-Sheet_0: 609946946
-      block-Sheet_1: -1812036069
-      block-Sheet_2: -61388045
-      block-Sheet_3: 1316470966
+      block-Sheet100_0: -468957383
+      block-Sheet100_1: 1285985952
+      block-Sheet100_2: -1015638066
+      block-Sheet100_3: -2081272319
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
