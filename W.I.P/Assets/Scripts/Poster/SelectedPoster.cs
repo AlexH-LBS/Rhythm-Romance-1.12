@@ -30,25 +30,25 @@ public class SelectedPoster : MonoBehaviour
     {
         if(!timer)
         { 
-            if (Input.GetKeyDown(up))
+            if (Input.GetKeyDown(up) || Input.GetKeyDown(KeyCode.UpArrow))
             {
                 movingToTarget = true;
                 witchOne = 0;
                 StartCoroutine(inputcooldown());
             }
-            if (Input.GetKeyDown(down))
+            if (Input.GetKeyDown(down) || Input.GetKeyDown(KeyCode.DownArrow))
             {
                 movingToTarget = true;
                 witchOne = 1;
                 StartCoroutine(inputcooldown());
             }
-            if (Input.GetKeyDown(back))
+            if (Input.GetKeyDown(back) || Input.GetKeyDown(KeyCode.LeftArrow))
             {
                 movingToTarget = true;
                 witchOne = 2;
                 StartCoroutine(inputcooldown());
             }
-            if (Input.GetKeyDown(forword))
+            if (Input.GetKeyDown(forword) || Input.GetKeyDown(KeyCode.RightArrow))
             {
                 movingToTarget = true;
                 witchOne = 3;
