@@ -2051,6 +2051,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1453715397}
     - target: {fileID: 7081607522781846089, guid: fd4319a1f6ca2444994068ba117950c9, type: 3}
+      propertyPath: end
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081607522781846089, guid: fd4319a1f6ca2444994068ba117950c9, type: 3}
       propertyPath: dialogue
       value: 2
       objectReference: {fileID: 0}

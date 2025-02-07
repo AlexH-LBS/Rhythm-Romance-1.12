@@ -18,6 +18,7 @@ public class BusMovement : MonoBehaviour
     private bool iswalking = false;
     Animator animator;
     public string Direction;
+    bool animsbool;
     void Start()
     {
         bus = GetComponent<Rigidbody2D>();
@@ -36,28 +37,45 @@ public class BusMovement : MonoBehaviour
             {
                 bus.velocity += new Vector2(0, Speed);
                 animator.Play(Direction);
+                animsbool = false;
             }
             if (Input.GetKey(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
             {
                 bus.velocity += new Vector2(0, -Speed);
                 animator.Play(Direction);
+                animsbool = false;
             }
             if (Input.GetKey(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
             {
                 bus.velocity += new Vector2(-Speed, 0);
                 Direction = "Walking-";
                 animator.Play(Direction);
+                animsbool = false;
             }
             if (Input.GetKey(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
             {
                 bus.velocity += new Vector2(Speed, 0);
                 Direction = "Walking";
                 animator.Play(Direction);
+                animsbool = false;
+            }
+            if (Direction == "Walking" && animsbool)
+            {
+                animator.Play("Idle");
+            }
+            if(Direction == "Walking-" && animsbool)
+            {
+                animator.Play("MirroedIdle");
+            }
+            else
+            {
+                animsbool = true;
             }
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 SceneManager.LoadScene(5);
             }
+
 
             if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
             {
@@ -66,6 +84,7 @@ public class BusMovement : MonoBehaviour
             else
             {
                 bus.velocity = bus.velocity.normalized * Speed;
+
             }
         }
 
@@ -78,14 +97,6 @@ public class BusMovement : MonoBehaviour
         if(bus.velocity.x == 0 && bus.velocity.y == 0)
         {
             iswalking = false;
-            if(Direction == "Walking")
-            {
-                animator.Play("Idle");
-            }
-            if (Direction == "Walking-")
-            {
-                animator.Play("MirroedIdle");
-            }
         }
         if (iswalking && !audioSource.isPlaying)
         {
