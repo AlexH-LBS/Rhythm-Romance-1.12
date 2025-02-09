@@ -25,7 +25,6 @@ public class endDialog : MonoBehaviour
         prepdia.SetActive(false);
         polydia.SetActive(false);
         offScreenDeathDialogue.SetActive(false);
-        compare(20, 20);
     }
 
     // Update is called once per frame
