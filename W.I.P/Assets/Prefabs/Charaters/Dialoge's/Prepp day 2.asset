@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7b5975afd44494daa64bd87debcaa1, type: 3}
+  m_Name: Prepp day 2
+  m_EditorClassIdentifier: 
+  RootNode:
+    dialogueText: Hey! (hehe get it?) What do you think about my lovely pony?
+    responses:
+    - responseText: It feels a bit childish... It is a childrens cartoon you know?
+      responseValue: 0
+      nextNode:
+        dialogueText: Yea, well it is also way more than that! It is a rich world
+          of magic and lore!
+        responses:
+        - responseText: I dont know... It just doesnt resonate with me.
+          responseValue: 1
+          nextNode:
+            dialogueText: Thats fine. I just realy like it.
+            responses:
+            - responseText: Close
+              responseValue: 0
+              nextNode:
+                dialogueText: 
+                responses: []
+        - responseText: You know, I might just check it out.
+          responseValue: 3
+          nextNode:
+            dialogueText: YAY! You wont regret it! *She has such a genuine smile
+              on her face its almost imposible not to smile with her.*
+            responses:
+            - responseText: Close
+              responseValue: 0
+              nextNode:
+                dialogueText: 
+                responses: []
+    - responseText: Isn't that a childrens cartoon? You are way too old to be watching
+        something like that.
+      responseValue: -1
+      nextNode:
+        dialogueText: But its so much more than that! *She is visibly uppset.*
+        responses:
+        - responseText: Its just some dumb cartoon and your just a child in an adults
+            body.
+          responseValue: -10
+          nextNode:
+            dialogueText: '*Tears are brimming in her eyes.* No! i''m not! Just-
+              Just leave!'
+            responses:
+            - responseText: Close
+              responseValue: 0
+              nextNode:
+                dialogueText: 
+                responses: []
+        - responseText: I don't know, seems dumb.
+          responseValue: -1
+          nextNode:
+            dialogueText: Hmph. *She crosses her arms and ignores you.*
+            responses:
+            - responseText: Close
+              responseValue: 0
+              nextNode:
+                dialogueText: 
+                responses: []
+    - responseText: '*You take out a mason jar out of your pocket.*'
+      responseValue: -1
+      nextNode:
+        dialogueText: First of all, why did you have a mason jar in your poket, and
+          second of all why did you show it to me?
+        responses:
+        - responseText: '*You take out a my lovely poney figurine and put it in the
+            jar.'
+          responseValue: 0
+          nextNode:
+            dialogueText: '*Something clicks in her brain and she grasps her head,
+              trying to push back the memories.* Starsprinkle!'
+            responses:
+            - responseText: '*You leave her there in an emotional breakdown.* Close'
+              responseValue: 0
+              nextNode:
+                dialogueText: 
+                responses: []

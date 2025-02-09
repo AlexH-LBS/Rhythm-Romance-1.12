@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7b5975afd44494daa64bd87debcaa1, type: 3}
+  m_Name: Rock day 3
+  m_EditorClassIdentifier: 
+  RootNode:
+    dialogueText: There you are! You shoulden't be spending all your time on your
+      room doing nothing.
+    responses:
+    - responseText: What do you mean? I do lots!
+      responseValue: 0
+      nextNode:
+        dialogueText: Yeah, like watch viewtube and dingdong.
+        responses:
+        - responseText: Hey, I read aswell I'll have you know!
+          responseValue: 0
+          nextNode:
+            dialogueText: Yea, fanfics about the creators you watch.
+            responses:
+            - responseText: '*You have no retort because it''s true.* Close'
+              responseValue: 1
+              nextNode:
+                dialogueText: 
+                responses: []
+    - responseText: Like you're one to speak!
+      responseValue: 0
+      nextNode:
+        dialogueText: What do you mean?
+        responses:
+        - responseText: You spend all day eating fastfood and grecing up the garage.
+          responseValue: -2
+          nextNode:
+            dialogueText: N-no I don't! I-
+            responses:
+            - responseText: Close
+              responseValue: 0
+              nextNode:
+                dialogueText: 
+                responses: []
+    - responseText: Hey stop being rude. I dont spend all day on my room.
+      responseValue: 0
+      nextNode:
+        dialogueText: Yeah sory, I didn't mean it.
+        responses:
+        - responseText: Its fine, just try to act nicer okay?
+          responseValue: 3
+          nextNode:
+            dialogueText: Ay ay captain! *He does a salute.*
+            responses:
+            - responseText: Close
+              responseValue: 0
+              nextNode:
+                dialogueText: 
+                responses: []

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7b5975afd44494daa64bd87debcaa1, type: 3}
+  m_Name: Rock day 2
+  m_EditorClassIdentifier: 
+  RootNode:
+    dialogueText: Hey, what were you diong last night? It kinda looked like you were
+      moving your han- WAIT! WERE YOU DOING WHAT I THIK YOU WERE???
+    responses:
+    - responseText: Nah man, I was just shreding some sick beats.
+      responseValue: 2
+      nextNode:
+        dialogueText: Oh... Hey! How could you? I thought we would shred together!
+        responses:
+        - responseText: Sorry :(
+          responseValue: 1
+          nextNode:
+            dialogueText: You better! *He smiles and hug you.*
+            responses:
+            - responseText: Close
+              responseValue: 0
+              nextNode:
+                dialogueText: 
+                responses: []
+    - responseText: Why were you loking at me in my room???
+      responseValue: 0
+      nextNode:
+        dialogueText: '*His face turns red.* Well, uh... I just... Uhhhhh.'
+        responses:
+        - responseText: Dude, stop spying on me, it's  totaly creep behaviour.
+          responseValue: -1
+          nextNode:
+            dialogueText: ...
+            responses:
+            - responseText: Close
+              responseValue: 0
+              nextNode:
+                dialogueText: 
+                responses: []
+        - responseText: Hey  look, it's fine, just tell me when you wanna hang out
+            okay?
+          responseValue: 1
+          nextNode:
+            dialogueText: Yeah... Thanks.
+            responses:
+            - responseText: Close
+              responseValue: 0
+              nextNode:
+                dialogueText: 
+                responses: []
+    - responseText: Yup.
+      responseValue: -3
+      nextNode:
+        dialogueText: Dude you are disgusting...
+        responses:
+        - responseText: Yup.
+          responseValue: 0
+          nextNode:
+            dialogueText: '*He has a disgusted look on his face. Probably best to
+              leave.* Close'
+            responses:
+            - responseText: Close
+              responseValue: 0
+              nextNode:
+                dialogueText: 
+                responses: []

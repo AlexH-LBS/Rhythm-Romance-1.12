@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f7b5975afd44494daa64bd87debcaa1, type: 3}
-  m_Name: Prepp day one main
+  m_Name: Prepp day 1 main
   m_EditorClassIdentifier: 
   RootNode:
     dialogueText: "UGH! WHY WON\u2019T HE RESPOND!?"
@@ -28,7 +28,7 @@ MonoBehaviour:
               really\u2026 Sorry. Yea he will probably respond soon. "
             responses:
             - responseText: close
-              responseValue: 1
+              responseValue: 2
               nextNode:
                 dialogueText: 
                 responses: []

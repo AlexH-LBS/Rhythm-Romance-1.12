@@ -150,6 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialogue:
   - {fileID: 11400000, guid: 3900427ff7c6e8a44af8d96ad1ed50ad, type: 2}
+  - {fileID: 11400000, guid: 581d15ddf498a1a46884105ba0e8a4f9, type: 2}
+  - {fileID: 11400000, guid: 8d75d2897ac3fa14b987be6e22deccbf, type: 2}
   FillerDialogue: []
   TrueDialouge: {fileID: 0}
   slected: 0

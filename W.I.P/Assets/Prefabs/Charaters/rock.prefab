@@ -107,6 +107,7 @@ MonoBehaviour:
   isfiller: 0
   BusMovement: {fileID: 0}
   charaterImg: {fileID: 0}
+  isPlayerNearby: 0
 --- !u!114 &8715856114004770855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,7 +122,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialogue:
   - {fileID: 11400000, guid: 3900427ff7c6e8a44af8d96ad1ed50ad, type: 2}
-  - {fileID: 11400000, guid: 3900427ff7c6e8a44af8d96ad1ed50ad, type: 2}
+  - {fileID: 11400000, guid: 03b48f0c4f981c24480b45099ac081b2, type: 2}
+  - {fileID: 11400000, guid: fab2062008373944b92ade0ca8e0d504, type: 2}
   FillerDialogue: []
   TrueDialouge: {fileID: 0}
   slected: 0
@@ -166,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   romanceP: 0
+  end: 0
 --- !u!58 &3898390417824247440
 CircleCollider2D:
   m_ObjectHideFlags: 0

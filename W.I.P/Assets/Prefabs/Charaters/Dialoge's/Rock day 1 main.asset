@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f7b5975afd44494daa64bd87debcaa1, type: 3}
-  m_Name: Rock day one main
+  m_Name: Rock day 1 main
   m_EditorClassIdentifier: 
   RootNode:
-    dialogueText: '*They look at you excitedly* Wanna go fuck up some trashcans?'
+    dialogueText: '*He looks at you excitedly* Wanna go fuck up some trashcans?'
     responses:
     - responseText: HELL YEAH!!! Let's go OBLITERATE them!
-      responseValue: 1
+      responseValue: 3
       nextNode:
         dialogueText: I KNEW I COULD COUNT ON YOU!!! *a fire has been ignited in
-          their eyes*
+          his eyes*
         responses:
         - responseText: close
           responseValue: 0
           nextNode:
-            dialogueText: "\xB4"
+            dialogueText: 
             responses: []
     - responseText: '*Give them a confused look*  '
       responseValue: 0
       nextNode:
-        dialogueText: "*They look at you as if you\u2019re stupid, and turns away*"
+        dialogueText: "*He looks at you as if you\u2019re stupid, and turns away*"
         responses:
         - responseText: close
           responseValue: 0

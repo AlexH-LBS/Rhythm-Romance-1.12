@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7b5975afd44494daa64bd87debcaa1, type: 3}
+  m_Name: Prepp day 3
+  m_EditorClassIdentifier: 
+  RootNode:
+    dialogueText: God, I am so stressed for the talant show... I- I am so woried
+      about messing up.
+    responses:
+    - responseText: Yeah, me too. But it dosen't help thinking about it.
+      responseValue: 0
+      nextNode:
+        dialogueText: I supose. I just cant get it out of my head.
+        responses:
+        - responseText: How about we take a walk, clear our heads?
+          responseValue: 3
+          nextNode:
+            dialogueText: Yeah, that would be good.
+            responses:
+            - responseText: '*You two take a walk outside.* Close'
+              responseValue: 0
+              nextNode:
+                dialogueText: 
+                responses: []
+    - responseText: Don't be such a downer! You will do great.
+      responseValue: 0
+      nextNode:
+        dialogueText: If you say so. *Her head down as if she doesnt belive your
+          words.*
+        responses:
+        - responseText: Close
+          responseValue: 0
+          nextNode:
+            dialogueText: 
+            responses: []
+    - responseText: Yeah, you wern't that great last time.
+      responseValue: 0
+      nextNode:
+        dialogueText: W-What? *She is caught of gaurd.*
+        responses:
+        - responseText: I just mean, you were playing so loudly that you drowned
+            me out!
+          responseValue: -2
+          nextNode:
+            dialogueText: Oh, sorry, I didn't mean too... *her voice trails off.*
+            responses: []
