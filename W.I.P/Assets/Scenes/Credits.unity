@@ -153,7 +153,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -650,7 +650,11 @@ MonoBehaviour:
     Latidue addict #1\n\nTheo: Main Programer, GFX imports, Monster addict #1\n\nHilda:
     Writer, SFX, Bug finder, Non engergy drink addict\n\n\n\nEstetare(Free Labour):\n\nEdward:
     Estetare Leader, Backgrounds, Details, Ricky J\n\nHanna: Backgrounds, HotSexyCowThey,
-    Overworked Free Child Labour\n\nMina: Sky, Posters"
+    Overworked Free Child Labour\n\nMina: Sky, Posters\n\nSongs\n\nTutorial-Fastest
+    man on Earth \nby: \nJahzzar\n\nGig at the Countryclub-Funky Junky\nby: \nJason
+    Shaw\nfound at:\nhttps://freemusicarchive.org/music/Jason_Shaw/Audionautix_Acoustic/FUNKY_JUNKY________________________2-18/\n\nGig
+    at the Rock Bar-Baby Girl\nby:\nBeat Mekanik\n\nMenu Music- Stay Tuned\nby:\nLobo
+    Loco\n\nOutro- Happy Twist\nby:\nUniversfield\n\nAnd you for playing"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f741165bd0066884683852270c06f261, type: 2}
   m_sharedMaterial: {fileID: 3074046808877419318, guid: f741165bd0066884683852270c06f261, type: 2}
