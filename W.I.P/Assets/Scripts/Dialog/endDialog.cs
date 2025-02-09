@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class endDialog : MonoBehaviour
@@ -73,5 +74,10 @@ public class endDialog : MonoBehaviour
         spriteRenderer = ending.GetComponent<Image>();
         originalColor = spriteRenderer.color;
         active = true;
-    } 
+    }
+    IEnumerator timer()
+    {
+        yield return new WaitForSeconds(10);
+        SceneManager.LoadScene(5);
+    }
 }
