@@ -5776,7 +5776,7 @@ PrefabInstance:
       objectReference: {fileID: 437460170}
     - target: {fileID: 5156644468786902226, guid: 2e9963aa0b0e2e7439388c8b029c6490, type: 3}
       propertyPath: loadScene
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7801454394637347544, guid: 2e9963aa0b0e2e7439388c8b029c6490, type: 3}
       propertyPath: m_Enabled
