@@ -942,7 +942,6 @@ Transform:
   m_Children:
   - {fileID: 1731030922}
   - {fileID: 568706442}
-  - {fileID: 1756177905}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &839126604 stripped
@@ -1550,7 +1549,7 @@ PrefabInstance:
     - target: {fileID: 5313539850955907712, guid: 70dc715963f4cb84fbe52a4e87185aaa, type: 3}
       propertyPath: points.Array.data[1]
       value: 
-      objectReference: {fileID: 1741391226}
+      objectReference: {fileID: 0}
     - target: {fileID: 5313539850955907712, guid: 70dc715963f4cb84fbe52a4e87185aaa, type: 3}
       propertyPath: points.Array.data[2]
       value: 
@@ -1558,7 +1557,7 @@ PrefabInstance:
     - target: {fileID: 5313539850955907712, guid: 70dc715963f4cb84fbe52a4e87185aaa, type: 3}
       propertyPath: points.Array.data[3]
       value: 
-      objectReference: {fileID: 1741391226}
+      objectReference: {fileID: 0}
     - target: {fileID: 5428113323676965523, guid: 70dc715963f4cb84fbe52a4e87185aaa, type: 3}
       propertyPath: m_Name
       value: Poster3
@@ -1727,6 +1726,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< HEAD
 --- !u!1001 &1518643645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1923,6 +1923,8 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8274557301747620055, guid: 2f9ab2b97fda2064d804005728e76386, type: 3}
   m_PrefabInstance: {fileID: 2136683234}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e090b38 (Update Poster.unity)
 --- !u!1 &1691218510
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,11 +2095,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7260848694459337740, guid: 70dc715963f4cb84fbe52a4e87185aaa, type: 3}
   m_PrefabInstance: {fileID: 1741391225}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1756177905 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5650642410632146769, guid: df1668199e9bb7241a246475e4ca6bac, type: 3}
-  m_PrefabInstance: {fileID: 1518643645}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1937968235
 PrefabInstance:
