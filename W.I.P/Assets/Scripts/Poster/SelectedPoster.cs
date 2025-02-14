@@ -63,10 +63,12 @@ public class SelectedPoster : MonoBehaviour
         {
             if(!poster.activeSelf)
             {
+                
                 poster.SetActive(true);
             }
-            else
+            else if(poster.activeSelf)
             {
+                playgame();
                 poster.SetActive(false);
             }
         }
