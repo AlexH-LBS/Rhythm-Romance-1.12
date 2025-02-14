@@ -1726,7 +1726,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-<<<<<<< HEAD
 --- !u!1001 &1518643645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1923,8 +1922,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8274557301747620055, guid: 2f9ab2b97fda2064d804005728e76386, type: 3}
   m_PrefabInstance: {fileID: 2136683234}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> parent of e090b38 (Update Poster.unity)
 --- !u!1 &1691218510
 GameObject:
   m_ObjectHideFlags: 0
