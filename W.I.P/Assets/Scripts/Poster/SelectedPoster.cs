@@ -103,7 +103,6 @@ public class SelectedPoster : MonoBehaviour
     }
     public void playgame()
     {
-        Debug.Log("pressed");
         SceneManager.LoadScene(sceneLoad);
     }
 
