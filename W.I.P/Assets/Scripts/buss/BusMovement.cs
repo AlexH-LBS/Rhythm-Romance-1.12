@@ -73,7 +73,7 @@ public class BusMovement : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                SceneManager.LoadScene(5);
+                SceneManager.LoadScene(0);
             }
 
 
