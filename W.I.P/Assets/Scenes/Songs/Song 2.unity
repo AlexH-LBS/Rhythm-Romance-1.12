@@ -2662,6 +2662,10 @@ PrefabInstance:
       propertyPath: timer
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 2021188462124677835, guid: fd4319a1f6ca2444994068ba117950c9, type: 3}
+      propertyPath: m_text
+      value: "Control:\nQ W O P\n\u2191 \u2190 \u2193 \u2192\nInteract: E"
+      objectReference: {fileID: 0}
     - target: {fileID: 2290529467494468439, guid: fd4319a1f6ca2444994068ba117950c9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.4
