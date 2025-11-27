@@ -942,6 +942,7 @@ Transform:
   m_Children:
   - {fileID: 1731030922}
   - {fileID: 568706442}
+  - {fileID: 1518643646}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &839126604 stripped
@@ -1006,7 +1007,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Control:\nW A S D\n\u2191 \u2190 \u2193 \u2192\nOpen Poster: E"
+  m_text: "Control:\nW A S D\n\u2191 \u2190 \u2193 \u2192\nOpen Poster: E\nClose
+    Poster: Q"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f741165bd0066884683852270c06f261, type: 2}
   m_sharedMaterial: {fileID: 3074046808877419318, guid: f741165bd0066884683852270c06f261, type: 2}
@@ -1549,7 +1551,7 @@ PrefabInstance:
     - target: {fileID: 5313539850955907712, guid: 70dc715963f4cb84fbe52a4e87185aaa, type: 3}
       propertyPath: points.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1741391226}
     - target: {fileID: 5313539850955907712, guid: 70dc715963f4cb84fbe52a4e87185aaa, type: 3}
       propertyPath: points.Array.data[2]
       value: 
@@ -1557,7 +1559,7 @@ PrefabInstance:
     - target: {fileID: 5313539850955907712, guid: 70dc715963f4cb84fbe52a4e87185aaa, type: 3}
       propertyPath: points.Array.data[3]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1741391226}
     - target: {fileID: 5428113323676965523, guid: 70dc715963f4cb84fbe52a4e87185aaa, type: 3}
       propertyPath: m_Name
       value: Poster3
@@ -1791,6 +1793,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1668199e9bb7241a246475e4ca6bac, type: 3}
+--- !u!4 &1518643646 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5650642410632146769, guid: df1668199e9bb7241a246475e4ca6bac, type: 3}
+  m_PrefabInstance: {fileID: 1518643645}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1639798855
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,11 +2598,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8970208614489674786, guid: 31fc719ba1b9a0c4d8284366c7df291f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.42
       objectReference: {fileID: 0}
     - target: {fileID: 8970208614489674786, guid: 31fc719ba1b9a0c4d8284366c7df291f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.23
       objectReference: {fileID: 0}
     - target: {fileID: 8970208614489674786, guid: 31fc719ba1b9a0c4d8284366c7df291f, type: 3}
       propertyPath: m_LocalPosition.z

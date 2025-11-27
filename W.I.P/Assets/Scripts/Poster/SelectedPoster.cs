@@ -54,6 +54,10 @@ public class SelectedPoster : MonoBehaviour
                 witchOne = 3;
                 StartCoroutine(inputcooldown());
             }
+            if(Input.GetKeyDown(KeyCode.Q))
+            {
+                poster.SetActive(false);
+            }
         }
         if (movingToTarget)
         {

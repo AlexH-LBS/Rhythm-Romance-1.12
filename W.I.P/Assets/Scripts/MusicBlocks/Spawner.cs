@@ -20,12 +20,6 @@ public class Spawner : MonoBehaviour
         timer = 1 / BPS;
         StartCoroutine(timeor());
     }
-
-
-    void Update()
-    {
-
-    }
     IEnumerator timeor()
     {
         yield return new WaitForSeconds(timer);
@@ -37,10 +31,6 @@ public class Spawner : MonoBehaviour
         timer = 1 / BPS * (((float)TimeInBetween[witchOne]));
         Instantiate(Spawning, gameObject.transform.position, Quaternion.identity);
         witchOne++;
-        restart();
-    }
-    void restart()
-    {
         StartCoroutine(timeor());
     }
 }
